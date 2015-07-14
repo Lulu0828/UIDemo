@@ -1,0 +1,224 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_alignParentTop="true"
+        android:background="@color/white">
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="100px">
+        
+	        <ImageView
+	            android:layout_width="80px"
+	            android:layout_height="80px"
+	            android:layout_marginTop="10px"
+	            android:layout_marginLeft="20px"
+	            android:src="@drawable/left_top"
+	            android:contentDescription="@null"/>
+	        
+	        <ImageView
+	            android:layout_width="150px"
+	            android:layout_height="50px"
+	            android:layout_marginLeft="20px"
+	            android:layout_gravity="center_vertical"
+	            android:scaleType="fitXY"
+	            android:src="@drawable/mit_home_title"
+	            android:contentDescription="@null"/>
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10px"
+	            android:layout_gravity="center_vertical"
+	            android:text="@string/title_text"
+	            android:textSize="30px"/>
+            
+            
+        </LinearLayout>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        	android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="20px"
+            android:layout_marginRight="20px"
+            android:text="@string/title_time"
+            android:textSize="20px"
+            android:textStyle="bold"
+            android:textColor="@color/black_text"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="86px"
+        android:layout_below="@id/title">
+    
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="70px"
+	        android:background="@color/midnightblue"/>
+	    
+	    <RadioGroup 
+	        android:layout_width="wrap_content"
+	        android:layout_height="86px"
+	        android:layout_marginLeft="50px"
+	        android:orientation="horizontal">
+	    
+		    <RadioButton
+		        android:layout_width="220px"
+		        android:layout_height="86px"
+		        android:gravity="center"
+		        android:background="@drawable/mit_home_nav_item_p"
+		        android:text="@string/menu1"
+		        android:textColor="@color/white"
+		        android:textSize="28px"
+		        android:button="@null"/>
+		    
+		    <RadioButton
+		        android:layout_width="220px"
+		        android:layout_height="86px"
+		        android:gravity="center"
+		        android:layout_marginLeft="15px"
+		        android:background="@null"
+		        android:text="@string/menu2"
+		        android:textColor="@color/white"
+		        android:textSize="28px"
+		        android:button="@null"/>
+		    
+		    <RadioButton
+		        android:layout_width="220px"
+		        android:layout_height="86px"
+		        android:gravity="center"
+		        android:layout_marginLeft="15px"
+		        android:background="@null"
+		        android:text="@string/menu3"
+		        android:textColor="@color/white"
+		        android:textSize="28px"
+		        android:button="@null"/>
+	        
+	    </RadioGroup>
+        
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom"
+        android:layout_below="@id/menu"
+        android:background="@color/bg"
+        android:orientation="vertical" >
+	    
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="220px"
+            android:layout_marginTop="34px"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:gravity="center">
+            
+            <ImageButton 
+                android:layout_width="220px"
+                android:layout_height="220px"
+                android:src="@drawable/icon11"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:contentDescription="@null"/>
+            
+            <ImageButton 
+                android:layout_width="220px"
+                android:layout_height="220px"
+                android:layout_marginLeft="15px"
+                android:src="@drawable/icon12"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:contentDescription="@null"/>
+            
+            <ImageButton 
+                android:layout_width="220px"
+                android:layout_height="220px"
+                android:layout_marginLeft="15px"
+                android:src="@drawable/icon13"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:contentDescription="@null"/>
+            
+            <ImageButton 
+                android:layout_width="220px"
+                android:layout_height="220px"
+                android:layout_marginLeft="15px"
+                android:src="@drawable/icon14"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:contentDescription="@null"/>
+            
+        </LinearLayout>
+	    
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="220px"
+            android:layout_marginTop="15px"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:gravity="center">
+            
+            <ImageButton 
+                android:layout_width="220px"
+                android:layout_height="220px"
+                android:src="@drawable/icon21"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:contentDescription="@null"/>
+            
+            <ImageButton 
+                android:layout_width="220px"
+                android:layout_height="220px"
+                android:layout_marginLeft="15px"
+                android:src="@drawable/icon22"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:contentDescription="@null"/>
+            
+            <ImageButton 
+                android:layout_width="220px"
+                android:layout_height="220px"
+                android:layout_marginLeft="15px"
+                android:src="@drawable/icon23"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:contentDescription="@null"/>
+            
+            <ImageButton 
+                android:layout_width="220px"
+                android:layout_height="220px"
+                android:layout_marginLeft="15px"
+                android:src="@drawable/icon24"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:contentDescription="@null"/>
+            
+            
+            
+        </LinearLayout>
+        
+	</LinearLayout>
+    
+    <ImageView
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="13px"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/mit_home_bottom_line"
+        android:contentDescription="@null"/>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color><!-- title行背景 -->
+    <color name="midnightblue">#3D4D60</color><!-- menu栏背景 -->
+    <color name="black_text">#535353</color><!-- 时间字体颜色 -->
+    <color name="bg">#F2F2F2</color><!-- 主背景 -->
+</resources>

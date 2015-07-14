@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UIDemo</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="title_text">支付改变生活</string>
+    <string name="title_time">2015年1月20日 14:00:00</string>
+    
+    <string name="menu1">便民支付</string>
+    <string name="menu2">周边特惠</string>
+    <string name="menu3">社区服务</string>
+
+</resources>
